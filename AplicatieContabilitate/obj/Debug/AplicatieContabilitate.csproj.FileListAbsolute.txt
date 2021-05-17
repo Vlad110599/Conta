@@ -1,0 +1,52 @@
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\AplicatieContabilitate.exe.config
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\AplicatieContabilitate.exe
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\AplicatieContabilitate.pdb
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignColors.dll
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignColors.pdb
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csprojAssemblyReference.cache
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\MainWindow.g.cs
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\App.g.cs
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate_MarkupCompile.cache
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate_MarkupCompile.lref
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\MainWindow.baml
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.g.resources
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.Properties.Resources.resources
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csproj.GenerateResource.cache
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csproj.CoreCompileInputs.cache
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csproj.CopyComplete
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.exe
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.pdb
+C:\Users\purca\source\repos\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct1.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csprojAssemblyReference.cache
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct1.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\App.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate_MarkupCompile.cache
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate_MarkupCompile.lref
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.exe
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\AplicatieContabilitate.exe.config
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\AplicatieContabilitate.exe
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\AplicatieContabilitate.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\ContaDAL.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignColors.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\ContaDAL.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\ContaDAL.dll.config
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignColors.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct1.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.g.resources
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.Properties.Resources.resources
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csproj.GenerateResource.cache
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csproj.CopyComplete

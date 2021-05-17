@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicatieContabilitate", "AplicatieContabilitate\AplicatieContabilitate.csproj", "{89B004A7-049D-4EB1-8271-523F6951131D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContaDAL", "ContaDAL\ContaDAL.csproj", "{460C8F0D-635E-4B1D-B80B-1F8FCBE27AA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B004A7-049D-4EB1-8271-523F6951131D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B004A7-049D-4EB1-8271-523F6951131D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B004A7-049D-4EB1-8271-523F6951131D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B004A7-049D-4EB1-8271-523F6951131D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460C8F0D-635E-4B1D-B80B-1F8FCBE27AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460C8F0D-635E-4B1D-B80B-1F8FCBE27AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460C8F0D-635E-4B1D-B80B-1F8FCBE27AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460C8F0D-635E-4B1D-B80B-1F8FCBE27AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A10652F-CBAE-4EBD-8CEC-8F3DD87909AC}
+	EndGlobalSection
+EndGlobal
