@@ -28,5 +28,9 @@ namespace AplicatieContabilitate.Puncte
         {
             Application.Current.Shutdown();
         }
+        private void GridBarTitle_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
+        }
     }
 }
