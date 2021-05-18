@@ -12,3 +12,17 @@ C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\ContaDAL\obj\Debug\Con
 C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.pdb
 C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.Migrations.InitialCreate.resources
 C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csproj.GenerateResource.cache
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\bin\Debug\ContaDAL.dll.config
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\bin\Debug\ContaDAL.dll
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\bin\Debug\ContaDAL.pdb
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\bin\Debug\EntityFramework.dll
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\bin\Debug\EntityFramework.xml
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csprojAssemblyReference.cache
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.Migrations.InitialCreate.resources
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csproj.GenerateResource.cache
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csproj.CoreCompileInputs.cache
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csproj.CopyComplete
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.dll
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.pdb

@@ -1,4 +1,8 @@
-﻿using System;
+﻿using ContaDAL;
+using ContaDAL.Models;
+using ContaDAL.Services;
+using AplicatieContabilitate.Puncte;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +17,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace AplicatieContabilitate
 {
     /// <summary>
@@ -25,14 +30,22 @@ namespace AplicatieContabilitate
             InitializeComponent();
         }
 
-        private void CloseButton_Click(object sender, RoutedEventArgs e)
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
-        }
+            MasterContext masterContext = new MasterContext();
+            var a = txtUsername.Text;
+            var b = txtPassword.Password;
+            if (a == masterContext.Utilizator.Find(1).Username && b == masterContext.Utilizator.Find(1).Password)
+            {
+                FrontWindow dashbord = new FrontWindow();
+                dashbord.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Username or password is incorrect!");
+            }
 
-        private void GridBarTitle_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            DragMove();
         }
     }
 }
