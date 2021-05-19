@@ -22,12 +22,6 @@
             </Grid.ColumnDefinitions>
             <TextBlock Text="Punct 1" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="77" Margin="18,0,0,-0.6"></TextBlock>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,9.6,0" Grid.Column="1">
-                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
-                    <materialDesign:PackIcon Kind="Message" Height="20" Width="20"/>
-                </Button>
-                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
-                    <materialDesign:PackIcon Kind="Account" Height="20" Width="20"/>
-                </Button>
                 <Button x:Name="CloseButton" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="CloseButton_Click">
                     <materialDesign:PackIcon Kind="Power" Height="20" Width="20"/>
                 </Button>
@@ -53,9 +47,9 @@
                                 <materialDesign:PackIcon Kind="PlusBold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="25" Width="25"/>
                             </Grid>
                             <TextBlock Text="Venituri" HorizontalAlignment="Right" Margin="0,10,10.2,137" FontFamily="Segoe UI Black" FontSize="16" Foreground="Green" Width="77"></TextBlock>
-                            <DatePicker Height="30" HorizontalAlignment="Center" Margin="170,49,169,0" Name="datePicker1"  VerticalAlignment="Top" Width="115" />
-                            <TextBox HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial Black" FontSize="72"  Height="30"  Width="300"></TextBox>
-                            <Button Margin="10" Width="115" Height="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F">
+                            <DatePicker Height="30" HorizontalAlignment="Center" Margin="170,49,169,0" Name="datePicker"  VerticalAlignment="Top" Width="115" />
+                            <TextBox Name="txtVenit" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="30"  Height="30"  Width="300"></TextBox>
+                            <Button Name="btnAddVenit" Click="btnAddVenit_Click" Margin="10" Width="115" Height="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F">
                                 <Grid Width="115" Height="25">
                                     <materialDesign:PackIcon Kind="Add" VerticalAlignment="Center" Margin="0,3,0,6"/>
                                     <TextBlock HorizontalAlignment="Center" Text="Adauga" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16" Margin="36,1,29,4"/>
@@ -70,7 +64,7 @@
                                 <materialDesign:PackIcon Kind="Minus" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="25" Width="25"/>
                             </Grid>
                             <TextBlock Text="Cheltuieli" HorizontalAlignment="Right" Margin="0,10,10.2,137" FontFamily="Segoe UI Black" FontSize="16" Foreground="Red" Width="77"></TextBlock>
-                            <TextBox HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial Black" FontSize="72"  Height="30"  Width="300"></TextBox>
+                            <TextBox Name="txtCheltuieli" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="30"  Height="30"  Width="300"></TextBox>
                             <Button Margin="10" Width="115" Height="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F">
                                 <Grid Width="115" Height="25">
                                     <materialDesign:PackIcon Kind="Add" VerticalAlignment="Center" Margin="0,3,0,6"/>

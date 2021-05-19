@@ -20,7 +20,7 @@
                 <ColumnDefinition Width="277*"/>
                 <ColumnDefinition Width="120*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Punct 1" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="77" Margin="18,0,0,-0.6"></TextBlock>
+            <TextBlock Text="Puncte" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="77" Margin="18,0,0,-0.6"></TextBlock>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,9.6,0" Grid.Column="1">
                 <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
                     <materialDesign:PackIcon Kind="Message" Height="20" Width="20"/>

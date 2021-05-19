@@ -80,6 +80,21 @@
     <Compile Include="Puncte\Punct1.xaml.cs">
       <DependentUpon>Punct1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Puncte\Punct2.xaml.cs">
+      <DependentUpon>Punct2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Puncte\Punct3.xaml.cs">
+      <DependentUpon>Punct3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Puncte\Punct4.xaml.cs">
+      <DependentUpon>Punct4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Puncte\Punct5.xaml.cs">
+      <DependentUpon>Punct5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Puncte\Punct6.xaml.cs">
+      <DependentUpon>Punct6.xaml</DependentUpon>
+    </Compile>
     <Page Include="FrontWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +116,26 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Puncte\Punct1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Puncte\Punct2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Puncte\Punct3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Puncte\Punct4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Puncte\Punct5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Puncte\Punct6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

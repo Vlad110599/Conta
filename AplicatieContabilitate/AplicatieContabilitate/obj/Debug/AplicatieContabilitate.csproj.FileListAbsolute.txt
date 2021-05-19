@@ -84,3 +84,17 @@ E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\FrontWin
 E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\FrontWindow.baml
 E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\PuncteActive.g.cs
 E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\PuncteActive.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\FrontWindow.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\PuncteActive.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\FrontWindow.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\PuncteActive.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct2.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct3.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct4.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct5.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct6.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct2.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct3.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct4.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct5.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct6.baml

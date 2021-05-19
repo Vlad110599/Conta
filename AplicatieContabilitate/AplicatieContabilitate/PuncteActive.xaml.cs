@@ -44,27 +44,37 @@ namespace AplicatieContabilitate
 
         private void btnPunct2_Click(object sender, RoutedEventArgs e)
         {
-
+            Punct2 dashbord = new Punct2();
+            dashbord.Show();
+            this.Close();
         }
 
         private void btnPunct3_Click(object sender, RoutedEventArgs e)
         {
-
+            Punct3 dashbord = new Punct3();
+            dashbord.Show();
+            this.Close();
         }
 
         private void btnPunct4_Click(object sender, RoutedEventArgs e)
         {
-
+            Punct4 dashbord = new Punct4();
+            dashbord.Show();
+            this.Close();
         }
 
         private void btnPunct5_Click(object sender, RoutedEventArgs e)
         {
-
+            Punct5 dashbord = new Punct5();
+            dashbord.Show();
+            this.Close();
         }
 
         private void btnPunct6_Click(object sender, RoutedEventArgs e)
         {
-
+            Punct6 dashbord = new Punct6();
+            dashbord.Show();
+            this.Close();
         }
     }
 }
