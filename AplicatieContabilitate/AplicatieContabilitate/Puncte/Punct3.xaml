@@ -20,7 +20,7 @@
                 <ColumnDefinition Width="277*"/>
                 <ColumnDefinition Width="120*"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Text="Punct 2" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="77" Margin="18,0,0,-0.6"></TextBlock>
+            <TextBlock Text="Punct 3" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="77" Margin="18,0,0,-0.6"></TextBlock>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,9.6,0" Grid.Column="1">
                 <Button x:Name="CloseButton" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="CloseButton_Click">
                     <materialDesign:PackIcon Kind="Power" Height="20" Width="20"/>
@@ -49,12 +49,6 @@
                             <TextBlock Text="Venituri" HorizontalAlignment="Right" Margin="0,10,10.2,137" FontFamily="Segoe UI Black" FontSize="16" Foreground="Green" Width="77"></TextBlock>
                             <DatePicker Height="30" HorizontalAlignment="Center" Margin="170,49,169,0" Name="datePicker"  VerticalAlignment="Top" Width="115" />
                             <TextBox Name="txtVenit" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="30"  Height="30"  Width="300"></TextBox>
-                            <Button Name="btnAddVenit" Click="btnAddVenit_Click" Margin="10" Width="115" Height="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F">
-                                <Grid Width="115" Height="25">
-                                    <materialDesign:PackIcon Kind="Add" VerticalAlignment="Center" Margin="0,3,0,6"/>
-                                    <TextBlock HorizontalAlignment="Center" Text="Adauga" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16" Margin="36,1,29,4"/>
-                                </Grid>
-                            </Button>
                         </Grid>
                     </Grid>
                     <Grid Grid.Column="1">
@@ -65,10 +59,18 @@
                             </Grid>
                             <TextBlock Text="Cheltuieli" HorizontalAlignment="Right" Margin="0,10,10.2,137" FontFamily="Segoe UI Black" FontSize="16" Foreground="Red" Width="77"></TextBlock>
                             <TextBox Name="txtCheltuieli" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial" FontSize="30"  Height="30"  Width="300"></TextBox>
-                            <Button Margin="10" Width="115" Height="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F">
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <Grid Margin="0,50,-514,232.8">
+                            <Button Name="btnAddVenit" Click="btnAddVenit_Click" Margin="10" Width="115" Height="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F">
                                 <Grid Width="115" Height="25">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="21*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
                                     <materialDesign:PackIcon Kind="Add" VerticalAlignment="Center" Margin="0,3,0,6"/>
-                                    <TextBlock HorizontalAlignment="Center" Text="Adauga" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16" Margin="36,1,29,4"/>
+                                    <TextBlock HorizontalAlignment="Center" Text="Adauga" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16" Margin="36,1,18.767,4"/>
                                 </Grid>
                             </Button>
                         </Grid>

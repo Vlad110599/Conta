@@ -26,3 +26,4 @@ E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csproj.CoreCo
 E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csproj.CopyComplete
 E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.dll
 E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.pdb
+E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.Migrations.DataFormatPoint.resources

@@ -52,7 +52,9 @@ namespace AplicatieContabilitate.Puncte
 
             Point6Services p6Services = new Point6Services();
             p6Services.AddPunct6(p);
-
+            MessageBox.Show("Datele au fost adaugate cu succes!");
+            txtVenit.Text = " ";
+            txtCheltuieli.Text = " ";
         }
     }
 }

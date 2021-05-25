@@ -52,7 +52,9 @@ namespace AplicatieContabilitate.Puncte
 
             Point5Services p5Services = new Point5Services();
             p5Services.AddPunct5(p);
-
+            MessageBox.Show("Datele au fost adaugate cu succes!");
+            txtVenit.Text = " ";
+            txtCheltuieli.Text = " ";
         }
     }
 }

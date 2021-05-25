@@ -74,25 +74,25 @@
             </Grid>
 
             <StackPanel Grid.Row="1">
-                <Button Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
+                <Button Name="btnViewIncasari" Click="btnViewIncasari_Click" Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
                     <Grid Width="150" Height="25">
                         <materialDesign:PackIcon Kind="Money" VerticalAlignment="Center"/>
                         <TextBlock HorizontalAlignment="Center" Text="Incasari" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16"/>
                     </Grid>
                 </Button>
-                <Button Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
+                <Button Name="btnViewCheltuieli" Click="btnViewCheltuieli_Click" Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
                     <Grid Width="150" Height="25">
                         <materialDesign:PackIcon Kind="MoneyOff" VerticalAlignment="Center"/>
                         <TextBlock HorizontalAlignment="Center" Text="Cheltuieli" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16"/>
                     </Grid>
                 </Button>
-                <Button Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
+                <Button  Name="btnCalcProfit" Click="btnCalcProfit_Click" Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
                     <Grid Width="150" Height="25">
                         <materialDesign:PackIcon Kind="Calculator" VerticalAlignment="Center"/>
                         <TextBlock HorizontalAlignment="Center" Text="Calcul Profit" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16"/>
                     </Grid>
                 </Button>
-                <Button Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
+                <Button Name="btnCalcProfitTot" Click="btnCalcProfitTot_Click" Margin="10" Background="#FFF0972F" BorderBrush="#FFF0972F">
                     <Grid Width="150" Height="25">
                         <materialDesign:PackIcon Kind="Bank" VerticalAlignment="Center"/>
                         <TextBlock HorizontalAlignment="Center" Text="Profit" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16"/>
@@ -104,12 +104,6 @@
 
         <Grid x:Name="GridBarTitle" Grid.ColumnSpan="2" Background="#FFE78C11" MouseDown="GridBarTitle_MouseDown">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0">
-                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
-                    <materialDesign:PackIcon Kind="Message" Height="20" Width="20"/>
-                </Button>
-                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
-                    <materialDesign:PackIcon Kind="Account" Height="20" Width="20"/>
-                </Button>
                 <Button x:Name="CloseButton" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="CloseButton_Click">
                     <materialDesign:PackIcon Kind="Power" Height="20" Width="20"/>
                 </Button>

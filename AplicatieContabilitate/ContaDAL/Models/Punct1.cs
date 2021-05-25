@@ -16,7 +16,7 @@ namespace ContaDAL.Models
 
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
-
+        
         public double Venituri { get; set; }
 
         public double Cheltuieli { get; set; }

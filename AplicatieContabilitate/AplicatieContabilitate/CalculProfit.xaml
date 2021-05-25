@@ -1,0 +1,112 @@
+﻿<Window x:Class="AplicatieContabilitate.CalculProfit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplicatieContabilitate"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"  Height="600" Width="1024" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="GridBarTitle" Grid.ColumnSpan="2" Background="#FFE78C11" MouseDown="GridBarTitle_MouseDown">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="277*"/>
+                <ColumnDefinition Width="120*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Calcul Profit" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="108" Margin="18,0,0,-0.6"></TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,9.6,0" Grid.Column="1">
+                <Button x:Name="CloseButton" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="CloseButton_Click">
+                    <materialDesign:PackIcon Kind="Power" Height="20" Width="20"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="2" Grid.Row="1">
+            <ScrollViewer Margin="0,0,0,-0.4">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200*"/>
+                        <RowDefinition Height="200*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Column="0" Margin="0,0,0,247.6" Grid.RowSpan="2">
+                        <Rectangle Margin="30,42,30,9.8" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10" RenderTransformOrigin="0.5,0.5">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform AngleX="-0.293"/>
+                                    <RotateTransform/>
+                                    <TranslateTransform X="-0.595"/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                        </Rectangle>
+                        <Grid Margin="25,30">
+                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,12,0,0">
+                                <materialDesign:PackIcon Kind="Calculator" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
+                            </Grid>
+                            <TextBlock Text="Venituri" Margin="34,123,307,108.6" FontFamily="Arial" FontSize="20"/>
+                            <TextBox Name="txtVenit" FontFamily="Arial" FontSize="30"  Height="30"  Width="200" Margin="163,123,91,108.6"></TextBox>
+                            <TextBlock Text="Cheltuieli" Margin="34,171,292,60.6" FontFamily="Arial" FontSize="20"/>
+                            <TextBox Name="txtCheltuieli" FontFamily="Arial" FontSize="30"  Height="30"  Width="200" Margin="163,171,91,60.6"></TextBox>
+                            <TextBlock Text="Profit" Margin="34,222,291,9.6" FontFamily="Arial" FontSize="20"/>
+                            <TextBox Name="txtProfit" FontFamily="Arial" FontSize="30"  Height="30"  Width="200" Margin="163,222,91,9.6"></TextBox>
+                            <DatePicker Height="30" HorizontalAlignment="Center" Margin="210,88,129,0" Name="datePicker" SelectedDateChanged="datePicker_DateChanged" VerticalAlignment="Top" Width="115" />
+                            <ComboBox Name="ComboBox1" SelectionChanged="ComboBox1_SelectionChanged" Width="200" FontFamily="Arial" Margin="90,39,164,192.6">
+                                <ComboBoxItem Content="Punct 1"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 2"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 3"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 4"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 5"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 6"></ComboBoxItem>
+                            </ComboBox>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Rectangle Margin="30,42,30.2,168.4" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
+                        <Grid Margin="25,30">
+                            <ListView  Name="lvPoints" HorizontalAlignment="Center" VerticalAlignment="Center" Height="161"  Width="380" Margin="40,31,33.2,143.2">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Id" Width="40" x:Name="ID" DisplayMemberBinding="{Binding Id}" />
+                                        <GridViewColumn Header="Data" Width="60" DisplayMemberBinding="{Binding Date}" />
+                                        <GridViewColumn Header="Venituri" Width="140" DisplayMemberBinding="{Binding Venituri}" />
+                                        <GridViewColumn Header="Cheltuieli" Width="140"  DisplayMemberBinding="{Binding Cheltuieli}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+            </ScrollViewer>
+
+
+            
+            <Grid Grid.Row="1">
+                <Grid Margin="0,50,-514,232.8">
+                    <Button Name="btnCalcProfit" Click="btnCalcProfit_Click" Margin="448,0,975,-34.2" Width="115" Height="25" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F">
+                        <Grid Width="115" Height="25">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="21*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                            <materialDesign:PackIcon Kind="Calculator" VerticalAlignment="Center" Margin="0,3,0,6"/>
+                            <TextBlock HorizontalAlignment="Center" Text="Calculeaza" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16" Margin="27,1,0.2,5" Grid.ColumnSpan="2" Width="88"/>
+                        </Grid>
+                    </Button>
+                </Grid>
+            </Grid> 
+        </Grid>
+    </Grid>
+</Window>

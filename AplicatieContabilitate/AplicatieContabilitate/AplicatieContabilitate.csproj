@@ -71,6 +71,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CalcProfitTotal.xaml.cs">
+      <DependentUpon>CalcProfitTotal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalculProfit.xaml.cs">
+      <DependentUpon>CalculProfit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="FrontWindow.xaml.cs">
       <DependentUpon>FrontWindow.xaml</DependentUpon>
     </Compile>
@@ -95,6 +101,21 @@
     <Compile Include="Puncte\Punct6.xaml.cs">
       <DependentUpon>Punct6.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Singleton.cs" />
+    <Compile Include="ViewCheltuieli.xaml.cs">
+      <DependentUpon>ViewCheltuieli.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewIncasari.xaml.cs">
+      <DependentUpon>ViewIncasari.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CalcProfitTotal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CalculProfit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FrontWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -136,6 +157,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Puncte\Punct6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewCheltuieli.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewIncasari.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

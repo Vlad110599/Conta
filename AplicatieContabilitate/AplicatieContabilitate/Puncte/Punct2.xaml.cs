@@ -52,6 +52,9 @@ namespace AplicatieContabilitate.Puncte
 
             Point2Services p2Services = new Point2Services();
             p2Services.AddPunct2(p);
+            MessageBox.Show("Datele au fost adaugate cu succes!");
+            txtVenit.Text = " ";
+            txtCheltuieli.Text = " ";
 
         }
     }

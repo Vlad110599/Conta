@@ -56,6 +56,10 @@
     <Compile Include="Migrations\202105171342104_InitialCreate.designer.cs">
       <DependentUpon>202105171342104_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105220941315_DataFormatPoint.cs" />
+    <Compile Include="Migrations\202105220941315_DataFormatPoint.designer.cs">
+      <DependentUpon>202105220941315_DataFormatPoint.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Punct1.cs" />
     <Compile Include="Models\Punct2.cs" />
@@ -79,6 +83,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202105171342104_InitialCreate.resx">
       <DependentUpon>202105171342104_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105220941315_DataFormatPoint.resx">
+      <DependentUpon>202105220941315_DataFormatPoint.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,89 @@
+﻿<Window x:Class="AplicatieContabilitate.ViewIncasari"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AplicatieContabilitate"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"  Height="600" Width="1024" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="GridBarTitle" Grid.ColumnSpan="2" Background="#FFE78C11" MouseDown="GridBarTitle_MouseDown">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="277*"/>
+                <ColumnDefinition Width="120*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Calcul Profit" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="108" Margin="18,0,0,-0.6"></TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,9.6,0" Grid.Column="1">
+                <Button x:Name="CloseButton" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="CloseButton_Click">
+                    <materialDesign:PackIcon Kind="Power" Height="20" Width="20"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="2" Grid.Row="1">
+            <ScrollViewer Margin="0,0,0,-0.4">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200*"/>
+                        <RowDefinition Height="200*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Column="0" Margin="0,0,0,247.6" Grid.RowSpan="2">
+                        <Rectangle Margin="30,42,30,-2" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10" RenderTransformOrigin="0.5,0.5">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform AngleX="-0.293"/>
+                                    <RotateTransform/>
+                                    <TranslateTransform X="-0.595"/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                        </Rectangle>
+                        <Grid Margin="25,30">
+                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,12,0,0">
+                                <materialDesign:PackIcon Kind="DecimalIncrease" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
+                            </Grid>
+                            <TextBlock Text="Alege un punct" Margin="167,57,150,174.6" FontFamily="Arial" FontSize="20"/>
+                            <DatePicker Height="30" HorizontalAlignment="Center" Margin="167,169,172,0" Name="datePicker" SelectedDateChanged="datePicker_DateChanged" VerticalAlignment="Top" Width="115" />
+                            <ComboBox Name="ComboBox1" SelectionChanged="ComboBox1_SelectionChanged" FontFamily="Arial" Margin="127,92,122,139.6">
+                                <ComboBoxItem Content="Punct 1"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 2"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 3"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 4"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 5"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 6"></ComboBoxItem>
+                            </ComboBox>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Rectangle Margin="30,42,30.2,227.6" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
+                        <Grid Margin="25,30">
+                            <ListView  Name="lvPoints" HorizontalAlignment="Center" VerticalAlignment="Center" Height="161"  Width="269" Margin="101,72,83.2,260.6">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Id" Width="50" x:Name="ID" DisplayMemberBinding="{Binding Id}" />
+                                        <GridViewColumn Header="Data" Width="67" DisplayMemberBinding="{Binding Date}" />
+                                        <GridViewColumn Header="Venituri" Width="150" DisplayMemberBinding="{Binding Venituri}" />
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

@@ -52,7 +52,9 @@ namespace AplicatieContabilitate.Puncte
 
             Point3Services p3Services = new Point3Services();
             p3Services.AddPunct3(p);
-
+            MessageBox.Show("Datele au fost adaugate cu succes!");
+            txtVenit.Text = " ";
+            txtCheltuieli.Text = " ";
         }
     }
 }

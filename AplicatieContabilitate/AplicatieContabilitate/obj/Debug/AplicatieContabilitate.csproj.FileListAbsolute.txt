@@ -98,3 +98,21 @@ C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate
 C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct4.baml
 C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct5.baml
 C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct6.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct2.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct3.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct4.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct5.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct6.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct2.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct3.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct4.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct5.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Puncte\Punct6.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalculProfit.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalculProfit.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalcProfitTotal.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalcProfitTotal.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewIncasari.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewIncasari.baml
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewCheltuieli.g.cs
+E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewCheltuieli.baml

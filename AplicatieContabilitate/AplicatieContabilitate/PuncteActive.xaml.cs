@@ -27,7 +27,9 @@ namespace AplicatieContabilitate
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            FrontWindow front = new FrontWindow();
+            front.Show();
+            this.Close();
         }
 
         private void GridBarTitle_MouseDown(object sender, MouseButtonEventArgs e)

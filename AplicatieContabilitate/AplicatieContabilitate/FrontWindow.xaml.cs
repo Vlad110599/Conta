@@ -41,5 +41,29 @@ namespace AplicatieContabilitate
             dashbord.Show();
             this.Close();
         }
+
+        private void btnCalcProfit_Click(object sender, RoutedEventArgs e)
+        {
+            CalculProfit calcdashbord = new CalculProfit();
+            calcdashbord.Show();
+        }
+
+        private void btnCalcProfitTot_Click(object sender, RoutedEventArgs e)
+        {
+            CalcProfitTotal calctotdashbord = new CalcProfitTotal();
+            calctotdashbord.Show();
+        }
+
+        private void btnViewIncasari_Click(object sender, RoutedEventArgs e)
+        {
+            ViewIncasari incdashbord = new ViewIncasari();
+            incdashbord.Show();
+        }
+
+        private void btnViewCheltuieli_Click(object sender, RoutedEventArgs e)
+        {
+            ViewCheltuieli cheltuielidashbord = new ViewCheltuieli();
+            cheltuielidashbord.Show();
+        }
     }
 }

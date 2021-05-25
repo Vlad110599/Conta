@@ -41,19 +41,21 @@ namespace AplicatieContabilitate.Puncte
 
         private void btnAddVenit_Click(object sender, RoutedEventArgs e)
         {
+            Singleton m = new Singleton();
             ContaDAL.Models.Punct1 p = new ContaDAL.Models.Punct1();
             var v = Convert.ToDouble(txtVenit.Text);
             var c = Convert.ToDouble(txtCheltuieli.Text);
             DateTime d = Convert.ToDateTime(datePicker.Text);
-            var dformat = d.ToString("yyyy/MM/dd");
-            DateTime dt = Convert.ToDateTime(dformat);
             p.Venituri = v;
             p.Cheltuieli = c;
-            p.Date = dt;
+            p.Date = d.Date;
 
             Point1Services p1Services = new Point1Services();
             p1Services.AddPunct1(p);
 
+            m.Message("Datele au fost adaugate cu succes!");
+            txtVenit.Text = " ";
+            txtCheltuieli.Text = " ";
         }
     }
 }

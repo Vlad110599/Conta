@@ -22,12 +22,6 @@
             </Grid.ColumnDefinitions>
             <TextBlock Text="Puncte" HorizontalAlignment="Left" FontFamily="Segoe UI Black" FontSize="16" Foreground="White" Width="77" Margin="18,0,0,-0.6"></TextBlock>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,9.6,0" Grid.Column="1">
-                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
-                    <materialDesign:PackIcon Kind="Message" Height="20" Width="20"/>
-                </Button>
-                <Button  Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
-                    <materialDesign:PackIcon Kind="Account" Height="20" Width="20"/>
-                </Button>
                 <Button x:Name="CloseButton" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="CloseButton_Click">
                     <materialDesign:PackIcon Kind="Power" Height="20" Width="20"/>
                 </Button>
@@ -50,7 +44,7 @@
                     <Grid Grid.Column="0">
                         <Rectangle Height="200" Margin="30" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
                         <Grid Margin="25,30">
-                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 , 22">
+                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,0,0,0">
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct1" Click="btnPunct1_Click" Content="1" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
@@ -60,7 +54,7 @@
                     <Grid Grid.Column="1">
                         <Rectangle Height="200" Margin="30" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
                         <Grid Margin="25,30">
-                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 , 22">
+                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,0,0,0">
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct2" Click="btnPunct2_Click" Content="2" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
@@ -71,7 +65,7 @@
                     <Grid Grid.Column="0" Grid.Row="1">
                         <Rectangle Height="200" Margin="35,30,25,30" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
                         <Grid Margin="25,30">
-                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 , 22">
+                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,0,0,0">
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct3" Click="btnPunct3_Click" Content="3" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
@@ -82,7 +76,7 @@
                     <Grid Grid.Column="1" Grid.Row="1">
                         <Rectangle Height="200" Margin="35,30,25.2,30" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
                         <Grid Margin="25,30">
-                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 , 22">
+                            <Grid Width="30" Background="#FFF7A638" Height="40" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30,0,0,0">
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct4" Click="btnPunct4_Click" Content="4" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>

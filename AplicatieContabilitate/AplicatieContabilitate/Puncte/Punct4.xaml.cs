@@ -52,7 +52,9 @@ namespace AplicatieContabilitate.Puncte
 
             Point4Services p4Services = new Point4Services();
             p4Services.AddPunct4(p);
-
+            MessageBox.Show("Datele au fost adaugate cu succes!");
+            txtVenit.Text = " ";
+            txtCheltuieli.Text = " ";
         }
     }
 }
