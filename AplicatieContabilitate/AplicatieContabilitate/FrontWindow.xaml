@@ -38,15 +38,47 @@
                             </Calendar>
                         </Grid>
                     </Grid>
+
                     <Grid Grid.Column="1">
                         <Rectangle Height="170" Margin="30" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
                         <Grid Margin="25" Height="169">
                             <Grid Width="60" Background="#FFF7A638" Height="80" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 ,0">
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
-                            <Button Name="btnPctActive" Click="btnPctActive_Click" Content="Puncte Active" BorderBrush="Transparent" HorizontalAlignment="Right" Margin="0,10,21,129" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="124"/>
-                            <TextBlock Text="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial Black" FontSize="72" Foreground="#FFCDCDCD" Height="76"  Width="51" Margin="153,47,150,46"></TextBlock>
+                            <Button Name="btnPctActive" Click="btnPctActive_Click" Content="Puncte" BorderBrush="Transparent" HorizontalAlignment="Right" Margin="0,10,21,129" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="124"/>
+                            <TextBlock Name="NrPuncte" Text="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial Black" FontSize="72" Foreground="#FFCDCDCD" Height="76"  Width="51" Margin="153,47,150,46"></TextBlock>
 
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="1">
+                        <Rectangle Height="170" Margin="30" Fill="#FFEBEBEB" RadiusY="10" RadiusX="10"/>
+                        <Grid Margin="25" Height="169">
+                            <Grid Width="45" Background="#FFF7A638" Height="46" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0">
+                                <materialDesign:PackIcon Kind="Check" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
+                            </Grid>
+                            <TextBlock Name="txtStatus" Text="Status puncte" HorizontalAlignment="Right" Margin="0,0,21.2,138" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="124"/>
+                            <ComboBox Name="ComboBox1"  FontFamily="Arial" Margin="94,37,98.2,100">
+                                <ComboBoxItem Content="Punct 1"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 2"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 3"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 4"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 5"></ComboBoxItem>
+                                <ComboBoxItem Content="Punct 6"></ComboBoxItem>
+                            </ComboBox>
+                            <ComboBox Name="ComboBox2"  FontFamily="Arial" Margin="95,87,98.2,50">
+                                <ComboBoxItem Content="Activ"></ComboBoxItem>
+                                <ComboBoxItem Content="Inactiv"></ComboBoxItem>
+                            </ComboBox>
+                            <Button Name="btnStatus" Click="btnStatus_Click"  Width="115" Height="25"  VerticalAlignment="Bottom" Background="#FFF0972F" BorderBrush="#FFF0972F" Margin="119,0,119.2,10">
+                                <Grid Width="115" Height="25">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="21*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <materialDesign:PackIcon Kind="Check" VerticalAlignment="Center" Margin="0,3,0,6"/>
+                                    <TextBlock HorizontalAlignment="Center" Text="Seteaza" FontFamily="Corbel Light" VerticalAlignment="Center" FontSize="16" Margin="30,0,-8.8,5" Grid.ColumnSpan="2" Width="94"/>
+                                </Grid>
+                            </Button>
                         </Grid>
                     </Grid>
                 </Grid>

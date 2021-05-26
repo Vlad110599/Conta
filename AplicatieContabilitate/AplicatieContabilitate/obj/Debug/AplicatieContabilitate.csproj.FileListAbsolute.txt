@@ -116,3 +116,11 @@ E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewInca
 E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewIncasari.baml
 E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewCheltuieli.g.cs
 E:\GitHub-Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewCheltuieli.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalcProfitTotal.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalculProfit.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewCheltuieli.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewIncasari.g.cs
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalcProfitTotal.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\CalculProfit.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewCheltuieli.baml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\ViewIncasari.baml

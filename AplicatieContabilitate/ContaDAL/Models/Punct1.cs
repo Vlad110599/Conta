@@ -22,5 +22,7 @@ namespace ContaDAL.Models
         public double Cheltuieli { get; set; }
 
         public double Profit { get; set; }
+
+        public int Status { get; set; }
     }
 }

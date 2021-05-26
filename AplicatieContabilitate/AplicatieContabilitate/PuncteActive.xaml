@@ -48,6 +48,7 @@
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct1" Click="btnPunct1_Click" Content="1" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
+                            <TextBlock Name="pct1Status" Text="Status:" HorizontalAlignment="Right" Margin="0,10,20,160" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="148"/>
 
                         </Grid>
                     </Grid>
@@ -58,6 +59,7 @@
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct2" Click="btnPunct2_Click" Content="2" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
+                            <TextBlock Name="pct2Status" Text="Status:" HorizontalAlignment="Right" Margin="0,10,20,160" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="148"/>
 
                         </Grid>
                     </Grid>
@@ -69,6 +71,8 @@
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct3" Click="btnPunct3_Click" Content="3" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
+                            <TextBlock Name="pct3Status" Text="Status:" HorizontalAlignment="Right" Margin="0,10,20,160" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="148"/>
+
 
                         </Grid>
                     </Grid>
@@ -80,6 +84,8 @@
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct4" Click="btnPunct4_Click" Content="4" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
+                            <TextBlock Name="pct4Status" Text="Status:" HorizontalAlignment="Right" Margin="0,10,20,160" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="148"/>
+
 
                         </Grid>
                     </Grid>
@@ -91,6 +97,8 @@
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct5" Click="btnPunct5_Click" Content="5" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
+                            <TextBlock Name="pct5Status" Text="Status:" HorizontalAlignment="Right" Margin="0,10,20,160" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="148"/>
+
 
                         </Grid>
                     </Grid>
@@ -102,6 +110,8 @@
                                 <materialDesign:PackIcon Kind="Shop" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Height="35" Width="35"/>
                             </Grid>
                             <Button Name="btnPunct6" Click="btnPunct6_Click" Content="6" BorderBrush="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Arial Black" FontSize="72" Height="76"  Width="51" Margin="153,47,150,46"/>
+                            <TextBlock Name="pct6Status" Text="Status:" HorizontalAlignment="Right" Margin="0,10,20,160" Background="#FFEBEBEB"  Foreground="#FFC3C3C3" FontFamily="Segoe UI Black" FontSize="18" Width="148"/>
+
 
                         </Grid>
                     </Grid>

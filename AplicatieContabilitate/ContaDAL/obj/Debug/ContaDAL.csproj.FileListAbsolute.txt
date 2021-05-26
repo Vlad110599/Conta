@@ -27,3 +27,5 @@ E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.csproj.CopyCo
 E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.dll
 E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.pdb
 E:\GitHub-Conta\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.Migrations.DataFormatPoint.resources
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.Migrations.DataFormatPoint.resources
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\ContaDAL\obj\Debug\ContaDAL.Migrations.StatusPuncte.resources
