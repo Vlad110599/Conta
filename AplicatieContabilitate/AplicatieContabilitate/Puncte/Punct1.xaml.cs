@@ -41,7 +41,7 @@ namespace AplicatieContabilitate.Puncte
 
         private void btnAddVenit_Click(object sender, RoutedEventArgs e)
         {
-            Singleton m = new Singleton();
+            Singleton m = Singleton.GetInstance;
             ContaDAL.Models.Punct1 p = new ContaDAL.Models.Punct1();
             var v = Convert.ToDouble(txtVenit.Text);
             var c = Convert.ToDouble(txtCheltuieli.Text);

@@ -16,7 +16,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using log4net;
+using System.IO;
+using log4net.Config;
 
 namespace AplicatieContabilitate
 {
@@ -25,9 +27,13 @@ namespace AplicatieContabilitate
     /// </summary>
     public partial class MainWindow : Window
     {
+        FileStream fs = new FileStream("../../log4netConfig.xml", FileMode.Open);
+        private ILog logger = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public MainWindow()
         {
             InitializeComponent();
+            XmlConfigurator.Configure(fs);
+            logger.Info("A inceput aplicatia!");
         }
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
@@ -40,10 +46,14 @@ namespace AplicatieContabilitate
                 FrontWindow dashbord = new FrontWindow();
                 dashbord.Show();
                 this.Close();
+                logger.Warn("Te-ai logat!");
             }
             else
             {
-                MessageBox.Show("Username or password is incorrect!");
+                Singleton s = Singleton.GetInstance;
+                s.Message("Username or password is incorrect!");
+
+                logger.Error("Username or password is incorrect!");
             }
 
         }
