@@ -1,1 +1,1 @@
-# Conta
+# Aplicatie Contabilitate
