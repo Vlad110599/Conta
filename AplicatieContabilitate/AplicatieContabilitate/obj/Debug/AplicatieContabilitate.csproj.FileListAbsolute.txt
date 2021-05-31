@@ -178,3 +178,5 @@ E:\GitHub-Conta\Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\Ap
 E:\GitHub-Conta\Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.csproj.CopyComplete
 E:\GitHub-Conta\Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.exe
 E:\GitHub-Conta\Conta\AplicatieContabilitate\AplicatieContabilitate\obj\Debug\AplicatieContabilitate.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\log4net.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\AplicatieContabilitate\bin\Debug\log4net.xml

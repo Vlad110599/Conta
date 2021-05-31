@@ -31,3 +31,36 @@ E:\GitHub-Conta\Conta\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\
 E:\GitHub-Conta\Conta\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.csproj.CopyComplete
 E:\GitHub-Conta\Conta\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.dll
 E:\GitHub-Conta\Conta\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\UnitTestAplicatieContabilitate.dll.config
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\UnitTestAplicatieContabilitate.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\UnitTestAplicatieContabilitate.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\AplicatieContabilitate.exe
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\ContaDAL.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.Testing.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.Testing.Moq.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Moq.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\log4net.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\AplicatieContabilitate.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\AplicatieContabilitate.exe.config
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\ContaDAL.pdb
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\ContaDAL.dll.config
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.Testing.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\EntityFramework.Testing.Moq.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\Moq.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\bin\Debug\log4net.xml
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.csprojAssemblyReference.cache
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.csproj.CopyComplete
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.dll
+C:\Users\User\Desktop\proiect plpf\AplicatieContabilitate\UnitTestAplicatieContabilitate\obj\Debug\UnitTestAplicatieContabilitate.pdb

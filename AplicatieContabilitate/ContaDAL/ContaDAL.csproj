@@ -79,10 +79,12 @@
     <Compile Include="Services\Point4Services.cs" />
     <Compile Include="Services\Point5Services.cs" />
     <Compile Include="Services\Point6Services.cs" />
+    <Compile Include="Services\UserServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Services\App.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202105171342104_InitialCreate.resx">
